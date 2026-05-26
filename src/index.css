@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .page-bg {
+    min-height: 100vh;
+    background: radial-gradient(
+      ellipse at 30% 50%,
+      #ffffff 0%,
+      #d4e6d4 45%,
+      #7aaa7a 80%,
+      #4a7a4a 100%
+    );
+    background-attachment: fixed;
+  }
+
+}
