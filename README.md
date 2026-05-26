@@ -1,16 +1,32 @@
-# React + Vite
+# ShopZone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce shopping platform built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
+- Product catalog with search functionality
+- Shopping cart with localStorage persistence
+- Responsive design for all devices
+- ⚡ Fast performance with Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React 18
+- Tailwind CSS v4
+- Vite
+- Lucide React (icons)
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Live Demo
+[https://shop-zone-steel.vercel.app](https://shop-zone-steel.vercel.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Backend API
+[ShopZone Backend Repository](https://github.com/teenexx55/ShopZone-backend)
+
+---
+
+Built by Sumedha Gupta aka Teenexx
