@@ -22,7 +22,10 @@ function App() {
       console.log("Products received:", data);
       setProducts(Array.isArray(data) ? data : []);
 })
-      .catch(() => setProducts([]))
+      .catch((err) => {
+      console.error("Fetch failed:", err);
+      setProducts([]);
+})
   }, [])
 
   return (
