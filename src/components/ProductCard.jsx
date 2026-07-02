@@ -6,6 +6,12 @@ export default function ProductCard({ product }) {
 
   return (
     <div className="rounded-2xl bg-white p-5 shadow-md">
+      <img
+      src={product.image_url}
+      alt={product.product_name}
+      loading="lazy"
+      className="w-full h-64 object-container rounded-xl mb-4"
+      />
       <p className="text-xs text-gray-400 uppercase mb-1">{product.product_category}</p>
       <h2 className="text-lg font-semibold mb-1">{product.product_name}</h2>
       <p className="text-sm text-gray-500 mb-3">{product.product_description}</p>
